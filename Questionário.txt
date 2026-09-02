@@ -1,0 +1,52 @@
+﻿1 - O que é uma classe?
+Uma classe é um modelo que define quais são os atributos e comportamentos (métodos) que um objeto daquele tipo deve ter.
+
+
+2 - O que é um objeto?
+Um objeto é uma instância de determinada classe, um objeto representa algo real criado a partir do modelo definido pela classe.
+
+
+3 - O que é assinatura de um método?
+A assinatura de um método é a combinação utilizada para definir um método dentro de uma classe.
+
+
+4 - Descreva a assinatura de um método
+A assinatura de um método é composta por modificador de acesso + tipo de retorno + nome do método + parâmetros.
+
+
+5 - Descreva o retorno de um método
+O retorno de um método é o valor que um método devolve para quem o chamou.
+Ex:
+public int somar (int a, int b) { return a+b;}
+
+
+6 - Defina o que é escopo
+Escopo é a região do código onde uma variável, método ou outro elemento pode ser acessado. 
+
+
+7 - Defina variavel global
+Uma variável que pode ser acessada por diferentes métodos da classe.
+
+
+8 - Defina variável local
+Uma variável local é uma variável declarada dentro de um método, construtor ou bloco de código e que só pode ser utilizada dentro daquele escopo. 
+
+
+9 - O que é um construtor?
+Um construtor é um método especial utilizado para inicializar um objeto no momento de sua criação, permitindo definir seu estado inicial e garantir que ele seja criado em um estado válido.
+
+
+10 - O que é herança?
+Herança é um pilar da orientação a objetos que consiste em uma superclasse (classe pai) e uma subclasse (classe filha) que herda seus atributos e métodos, promovendo reuso de código.
+
+
+11 - O que é uma interface?
+Uma interface é um contrato que define um conjunto de métodos que uma classe deve obrigatoriamente implementar, ela define o que essa classe deve fazer mas não como. Todos os seus métodos são abstratos.
+
+
+12 - O que é uma classe abstrata?
+Uma classe abstrata é uma classe que não pode ser instanciada diretamente, servindo como modelo base para outras classes, podendo conter tanto métodos abstratos quanto métodos comuns.
+
+
+13 - O que é encapsulamento?
+Encapsulamento é o pilar da orientação a objetos que consiste em proteger os dados de um objeto contra acessos não autorizados ou indevidos. É feito através de modificadores de acesso, restringindo o acesso direto aos atributos e fornecendo métodos de acesso como getters/setters para controlar leitura e alteração.
